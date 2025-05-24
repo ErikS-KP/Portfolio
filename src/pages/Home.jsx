@@ -89,7 +89,7 @@ function Home(){
 
 
                 </div>
-                <a href="projects" id='all-proj-btn'>View All Projects</a>
+                <a onClick={() => Navigate('/projects')} id='all-proj-btn'>View All Projects</a>
             </section>
 
             {/* Kontakt meg / Bestill ordere */}
